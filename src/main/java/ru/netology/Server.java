@@ -10,7 +10,6 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class Server {
-
     private static final Logger log = LoggerFactory.getLogger(Server.class);
     private static final int PORT = 8080;
     private static final int THREAD_POOL_SIZE = 64;
